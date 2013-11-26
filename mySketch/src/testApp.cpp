@@ -39,7 +39,7 @@ void testApp::update(){
     else{
         path.circle(center.x, center.y, radius);
         path.close();
-        path.setFillColor(255);
+        path.setFillColor(0);
        path.arc(center.x,center.y,radius,radius,hour,min);
      }
 
